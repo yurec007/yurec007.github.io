@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <title>Задание 2,2</title>
+ </head>
+ <body>
+<form name="test" method="post" action="handler.php">
+ <b>Name</b></br>
+   <input type="text" size="10">
+  <p></p><b>Email</b></br>
+   <input type="text" size="10">
+ <p></p><b>Sex</b></br>
+  <input type="radio" name="sex" value="male">Male
+<input type="radio" name="sex" value="male">Female
+  <p></p><b>Current status</b></br>
+  <input type="checkbox" name="Current status" value="student">Student<Br>
+    <input type="checkbox" name="Current status" value="Employed">Employed<Br>
+    <input type="checkbox" name="Current status" value="unemployed">Unemployed
+    <p></p><b>Month and Year of birth</b><Br>
+    <select name="month" size="1"> 
+<option value="январь">январь</option> 
+<option value="февраль">февраль</option>
+<option value="март">март</option> 
+<option value="апрель">апрель</option>
+</select>
+  <select name="Year" size="1">  
+<option value="1990">1990</option> 
+<option value="1991">1991</option>
+<option value="1992">1992</option> 
+<option value="1993">1994</option>
+</select>
+    <p></p><b>Skills and Technologies</b><Br>
+    <select name="skills" size="10" multiple="multiple">
+ <optgroup label="Tech skills">Tech skills
+    <option value="HTML">HTML</option>
+    <option value="CSS">CSS</option> 
+    <option value="JavaSkript">JavaSkript</option> 
+    <option value="git">git</option>
+ </optgroup>
+ <optgroup label="Soft skills">
+    <option value="Time management">Time management</option>
+    <option value="Proactivity">Proactivity</option> 
+    <option value="Teamwork">Teamwork</option> 
+    <option value="Leadership">Leadership</option>
+ </optgroup>
+    </select><p></p>
+    <b>Photo</b><Br>
+    <input type="file" name="photo" value="photo"><p></p>
+    <b>Comments</b><Br>
+    <textarea name="comments" cols="30" rows="5"></textarea>
+    <p><input type="submit" ></p>
+    </form>
+   </body>
+</html>
