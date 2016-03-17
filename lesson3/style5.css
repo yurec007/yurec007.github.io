@@ -1,0 +1,80 @@
+form
+{
+	font: 8px;
+}
+input
+{
+	display: none;
+}
+
+label
+{
+	margin-right: 10px;
+	text-decoration: underline;
+}
+
+label:last-of-type
+{
+	margin-right: 10px;
+}
+
+label:hover
+{
+	text-decoration: none;
+}
+
+label[for="red"]
+{
+	color: #ff0000;
+}
+label[for="green"]
+{
+	color: #008a00;
+}
+
+label[for="blue"]
+{
+	color: #4800ff;
+}
+
+#red ~ .red,
+#green ~ .green,
+#blue ~ .blue
+{
+	visibility: hidden;
+}
+
+#red:checked ~ .red,
+#green:checked ~ .green,
+#blue:checked ~ .blue
+{
+	visibility: visible;
+}
+
+/* Кнопки */
+span
+{
+	display: inline-block;
+    margin-bottom: 2px;
+	vertical-align: top;
+	padding: 0px 7px;
+	line-height: px;
+	height: 20px;
+	color: #fff;
+	border-radius: 6px;
+}
+
+span.red
+{
+	background-color: #ff0000;
+}
+
+span.green
+{
+	background-color: #008a00;
+}
+
+span.blue
+{
+	background-color: #4800ff;
+}

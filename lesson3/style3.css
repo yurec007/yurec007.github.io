@@ -1,8 +1,22 @@
-.ya 
+a[href^="http"]:link,
+a[href^="http"]:visited
 {
-    color: #f70;
+	color: #f70;
 }
-.gg 
+
+a[target="_blank"]:after
 {
-    color: #666;
+	content: '\21F1';
+	position: absolute;
+	padding-right: 15px;
+	margin-top: 5px;
+    font-size: 1.2em;
+	transform: rotate(-270deg);
+
+}
+
+a[href*="google.com"]:link,
+a[href*="google.com"]:visited
+{
+	color:#666;
 }
