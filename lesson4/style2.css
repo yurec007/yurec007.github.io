@@ -23,8 +23,11 @@ span
     height: 45px;
     text-align:center;
     padding: 7px 4px;
-    box-sizing: border-box;
-    
+    box-sizing: border-box;   
+}
+span.more
+{
+    float: right;
 }
 span:hover
 {
